@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "dashboard": "Дашборд",
+    "accounts": "Счета",
+    "transactions": "Транзакции",
+    "categories": "Категории и бюджеты",
+    "analytics": "Аналитика",
+    "friends": "Друзья",
+    "projects": "Проекты",
+    "sharedTransactions": "Совместные транзакции",
+    "settings": "Настройки"
+  },
+  "common": {
+    "add": "Добавить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "all": "Все",
+    "loading": "Загрузка...",
+    "noData": "Нет данных",
+    "currency": "₽",
+    "amount": "Сумма",
+    "date": "Дата",
+    "description": "Описание",
+    "category": "Категория",
+    "account": "Счет",
+    "type": "Тип",
+    "name": "Название",
+    "email": "Email",
+    "phone": "Телефон",
+    "status": "Статус",
+    "actions": "Действия",
+    "me": "Я",
+    "you": "Вы"
+  },
+  "dashboard": {
+    "title": "Дашборд",
+    "subtitle": "Обзор ваших финансов",
+    "totalBalance": "Общий баланс",
+    "monthlyIncome": "Доходы за месяц",
+    "monthlyExpenses": "Расходы за месяц",
+    "monthlySavings": "Экономия за месяц",
+    "balanceDynamics": "Динамика баланса",
+    "expenseStructure": "Структура расходов",
+    "recentTransactions": "Последние транзакции",
+    "activeProjects": "Активные проекты",
+    "budgets": "Бюджеты",
+    "viewAll": "Все",
+    "periods": {
+      "thisMonth": "Этот месяц",
+      "lastMonth": "Прошлый месяц",
+      "quarter": "Квартал",
+      "year": "Год"
+    }
+  },
+  "accounts": {
+    "title": "Счета",
+    "subtitle": "Управляйте вашими банковскими счетами и картами",
+    "addAccount": "Добавить счет",
+    "newAccount": "Новый счет",
+    "editAccount": "Редактировать счет",
+    "accountName": "Название счета",
+    "accountType": "Тип счета",
+    "initialBalance": "Начальный баланс",
+    "currency": "Валюта",
+    "interestRate": "Процентная ставка (%)",
+    "safetyNet": "Подушка безопасности",
+    "creditLimit": "Кредитный лимит",
+    "paymentDate": "Дата платежа",
+    "counterparty": "Контрагент",
+    "issueDate": "Дата выдачи",
+    "returnDate": "Планируемый возврат",
+    "icon": "Иконка",
+    "color": "Цвет",
+    "income": "Доходы",
+    "expenses": "Расходы",
+    "types": {
+      "debit": "Дебетовый счет",
+      "savings": "Накопительный счет",
+      "credit": "Кредитный счет",
+      "loan_given": "Займ (мне должны)",
+      "loan_taken": "Займ (я должен)"
+    },
+    "placeholders": {
+      "accountName": "Например: Основная карта",
+      "counterparty": "Имя должника/кредитора"
+    },
+    "confirmDelete": "Вы уверены, что хотите удалить этот счет?"
+  },
+  "transactions": {
+    "title": "Транзакции",
+    "subtitle": "Управляйте вашими доходами и расходами",
+    "addTransaction": "Добавить транзакцию",
+    "newTransaction": "Новая транзакция",
+    "editTransaction": "Редактировать транзакцию",
+    "selectAccount": "Выберите счет",
+    "selectCategory": "Выберите категорию",
+    "transactionDescription": "Введите описание транзакции",
+    "toAccount": "На счет",
+    "applyFilters": "Применить фильтры",
+    "types": {
+      "income": "Доходы",
+      "expense": "Расходы",
+      "transfer": "Переводы"
+    },
+    "tabs": {
+      "expense": "Расход",
+      "income": "Доход",
+      "transfer": "Перевод",
+      "shared": "Совместная"
+    },
+    "periods": {
+      "day": "День",
+      "week": "Неделя",
+      "month": "Месяц",
+      "year": "Год",
+      "custom": "Произвольный"
+    },
+    "table": {
+      "date": "Дата",
+      "account": "Счет",
+      "category": "Категория",
+      "description": "Описание",
+      "amount": "Сумма",
+      "actions": "Действия"
+    },
+    "pagination": {
+      "showing": "Показано",
+      "of": "из"
+    },
+    "confirmDelete": "Вы уверены, что хотите удалить эту транзакцию?"
+  },
+  "categories": {
+    "title": "Категории и бюджеты",
+    "subtitle": "Управляйте категориями расходов и доходов",
+    "parentCategory": "Родительская категория",
+    "addSubcategory": "Добавить подкатегорию",
+    "tabs": {
+      "categories": "Категории",
+      "budgets": "Бюджеты"
+    },
+    "addCategory": "Добавить категорию",
+    "newCategory": "Новая категория",
+    "editCategory": "Редактировать категорию",
+    "categoryName": "Название категории",
+    "incomeCategories": "Категории доходов",
+    "expenseCategories": "Категории расходов",
+    "addBudget": "Добавить бюджет",
+    "newBudget": "Новый бюджет",
+    "editBudget": "Редактировать бюджет",
+    "budgetLimit": "Лимит расходов",
+    "period": "Период",
+    "notifications": "Уведомления",
+    "periods": {
+      "week": "Неделя",
+      "month": "Месяц",
+      "quarter": "Квартал",
+      "year": "Год"
+    },
+    "notificationOptions": {
+      "fifty": "Уведомлять при достижении 50% лимита",
+      "seventyFive": "Уведомлять при достижении 75% лимита",
+      "hundred": "Уведомлять при достижении 100% лимита"
+    },
+    "confirmDeleteCategory": "Вы уверены, что хотите удалить эту категорию?",
+    "confirmDeleteBudget": "Вы уверены, что хотите удалить этот бюджет?"
+  },
+  "friends": {
+    "title": "Друзья",
+    "subtitle": "Управляйте совместными расходами и долгами",
+    "addFriend": "Добавить друга",
+    "searchFriends": "Поиск друзей...",
+    "tabs": {
+      "all": "Все друзья",
+      "requests": "Запросы",
+      "sent": "Отправленные"
+    },
+    "addTabs": {
+      "email": "По email",
+      "phone": "По телефону",
+      "name": "По имени"
+    },
+    "sharedTransaction": "Совместная транзакция",
+    "remind": "Напомнить",
+    "owesYou": "Должен вам:",
+    "youOwe": "Вы должны:",
+    "sendInvitation": "Отправить приглашение",
+    "emailHint": "Мы отправим приглашение на указанный email",
+    "phoneHint": "Отправим SMS с приглашением",
+    "nameHint": "Поиск среди пользователей ФинТрек",
+    "placeholders": {
+      "email": "example@mail.ru",
+      "phone": "+7 (999) 123-45-67",
+      "name": "Иван Петров"
+    },
+    "emptyStates": {
+      "noRequests": "Нет входящих запросов",
+      "noRequestsDesc": "Здесь будут отображаться запросы на добавление в друзья",
+      "noSent": "Нет отправленных запросов",
+      "noSentDesc": "Здесь будут отображаться ваши отправленные приглашения"
+    },
+    "selectFriend": "Выберите друга"
+  },
+  "projects": {
+    "title": "Проекты",
+    "subtitle": "Отслеживайте бюджеты крупных событий и проектов",
+    "createProject": "Создать проект",
+    "newProject": "Новый проект",
+    "editProject": "Редактировать проект",
+    "projectName": "Название проекта",
+    "budget": "Бюджет",
+    "startDate": "Дата начала",
+    "endDate": "Дата завершения (опционально)",
+    "progress": "Прогресс",
+    "remaining": "Осталось",
+    "daysToCompletion": "Дней до завершения",
+    "overdue": "Просрочен",
+    "today": "Сегодня",
+    "days": "дн.",
+    "infinite": "∞",
+    "placeholders": {
+      "projectName": "Например: Ремонт кухни",
+      "description": "Краткое описание проекта"
+    },
+    "confirmArchive": "Вы уверены, что хотите архивировать этот проект?"
+  },
+  "sharedTransactions": {
+    "title": "Совместные транзакции",
+    "subtitle": "Отслеживайте групповые расходы и долги",
+    "createShared": "Создать совместную транзакцию",
+    "newShared": "Новая совместная транзакция",
+    "owedToYou": "Должны вам",
+    "youOwe": "Вы должны",
+    "activeTransactions": "Активных транзакций",
+    "participants": "Участники",
+    "addParticipant": "Добавить участника",
+    "splitMethods": {
+      "equal": "Поровну",
+      "percentage": "Пропорционально",
+      "amount": "Указать суммы"
+    },
+    "yourShare": "Ваша доля:",
+    "totalAmount": "Общая сумма:",
+    "status": {
+      "completed": "Завершено",
+      "partial": "Частично оплачено",
+      "pending": "Ожидает оплаты"
+    },
+    "details": "Подробности",
+    "settle": "Рассчитаться"
+  },
+  "analytics": {
+    "title": "Аналитика",
+    "subtitle": "Подробная статистика ваших финансов",
+    "incomeExpenses": "Доходы и расходы",
+    "expenseStructure": "Структура расходов",
+    "comparison": "Сравнение с предыдущим периодом",
+    "trends": "Тренды",
+    "recommendations": "Рекомендации",
+    "safetyNet": "Подушка безопасности",
+    "totalAmount": "Общая сумма",
+    "months": "мес.",
+    "safetyNetDesc": "На основе среднемесячных расходов",
+    "safetyNetRecommendation": "Рекомендуется иметь подушку на 6-12 месяцев",
+    "periods": {
+      "month": "За месяц",
+      "quarter": "За квартал",
+      "year": "За год"
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "subtitle": "Персонализируйте ваше приложение",
+    "sections": {
+      "appearance": "Внешний вид",
+      "notifications": "Уведомления",
+      "currency": "Валюта и регион",
+      "security": "Безопасность",
+      "data": "Данные и экспорт"
+    },
+    "appearance": {
+      "theme": "Тема приложения",
+      "themeDesc": "Выберите светлую или темную тему",
+      "light": "Светлая",
+      "dark": "Темная",
+      "language": "Язык интерфейса",
+      "languageDesc": "Выберите язык приложения"
+    },
+    "notifications": {
+      "push": "Push-уведомления",
+      "pushDesc": "Получать уведомления в браузере",
+      "budget": "Уведомления о бюджете",
+      "budgetDesc": "Предупреждения о превышении бюджета",
+      "weekly": "Еженедельные отчеты",
+      "weeklyDesc": "Получать сводку трат за неделю"
+    },
+    "currency": {
+      "default": "Основная валюта",
+      "defaultDesc": "Валюта по умолчанию для новых счетов",
+      "dateFormat": "Формат даты",
+      "dateFormatDesc": "Как отображать даты в приложении"
+    },
+    "security": {
+      "autoLogout": "Автоматический выход",
+      "autoLogoutDesc": "Выходить из системы при неактивности",
+      "twoFactor": "Двухфакторная аутентификация",
+      "twoFactorDesc": "Дополнительная защита аккаунта",
+      "setup2FA": "Настроить 2FA"
+    },
+    "data": {
+      "export": "Экспорт данных",
+      "exportDesc": "Скачать все ваши финансовые данные",
+      "exportBtn": "Экспорт",
+      "autoBackup": "Автоматическое резервное копирование",
+      "autoBackupDesc": "Регулярно сохранять копии данных"
+    },
+    "saveSettings": "Сохранить настройки",
+    "resetSettings": "Сбросить к умолчаниям",
+    "settingsSaved": "Настройки успешно сохранены!",
+    "confirmReset": "Вы уверены, что хотите сбросить все настройки к значениям по умолчанию?"
+  },
+  "modal": {
+    "close": "Закрыть",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "add": "Добавить",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "confirm": "Подтвердить",
+    "apply": "Применить",
+    "reset": "Сбросить",
+    "create": "Создать",
+    "update": "Обновить",
+    "remove": "Удалить",
+    "archive": "Архивировать"
+  },
+  "periods": {
+    "day": "День",
+    "week": "Неделя", 
+    "month": "Месяц",
+    "quarter": "Квартал",
+    "year": "Год",
+    "custom": "Произвольный",
+    "thisMonth": "Этот месяц",
+    "lastMonth": "Прошлый месяц",
+    "thisYear": "Этот год",
+    "lastYear": "Прошлый год"
+  },
+  "charts": {
+    "7d": "7Д",
+    "30d": "30Д", 
+    "3m": "3М",
+    "year": "Год"
+  },
+  "header": {
+    "searchPlaceholder": "Поиск...",
+    "notifications": "Уведомления",
+    "markAllRead": "Отметить все как прочитанные",
+    "profile": "Профиль",
+    "help": "Помощь",
+    "logout": "Выйти",
+    "personalAccount": "Личный аккаунт"
+  },
+  "sidebar": {
+    "planFree": "Free",
+    "upgradeToPremium": "Перейти на Premium",
+    "premiumModal": {
+      "title": "Перейти на Premium",
+      "subtitle": "Разблокируйте все возможности Finsi",
+      "features": {
+        "unlimited": "Неограниченное количество счетов и транзакций",
+        "analytics": "Расширенная аналитика и отчеты",
+        "export": "Экспорт данных в Excel и PDF",
+        "attachments": "Прикрепление файлов к транзакциям",
+        "goals": "Планирование финансовых целей",
+        "support": "Приоритетная техническая поддержка",
+        "noAds": "Без рекламы",
+        "backup": "Автоматическое резервное копирование"
+      },
+      "price": "299 ₽/месяц",
+      "promoCode": "Промокод",
+      "promoPlaceholder": "Введите промокод",
+      "applyPromo": "Применить",
+      "subscribe": "Оформить подписку",
+      "cancel": "Отмена",
+      "promoApplied": "Промокод применен!",
+      "promoInvalid": "Промокод недействителен",
+      "promoError": "Ошибка проверки промокода",
+      "subscriptionSuccess": "Подписка успешно оформлена!",
+      "subscriptionError": "Ошибка оформления подписки"
+    }
+  }
+}

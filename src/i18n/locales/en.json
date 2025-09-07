@@ -1,0 +1,397 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "accounts": "Accounts",
+    "transactions": "Transactions",
+    "categories": "Categories & Budgets",
+    "analytics": "Analytics",
+    "friends": "Friends",
+    "projects": "Projects",
+    "sharedTransactions": "Shared Transactions",
+    "settings": "Settings"
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "loading": "Loading...",
+    "noData": "No data",
+    "currency": "$",
+    "amount": "Amount",
+    "date": "Date",
+    "description": "Description",
+    "category": "Category",
+    "account": "Account",
+    "type": "Type",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "status": "Status",
+    "actions": "Actions",
+    "me": "Me",
+    "you": "You"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your finances",
+    "totalBalance": "Total Balance",
+    "monthlyIncome": "Monthly Income",
+    "monthlyExpenses": "Monthly Expenses",
+    "monthlySavings": "Monthly Savings",
+    "balanceDynamics": "Balance Dynamics",
+    "expenseStructure": "Expense Structure",
+    "recentTransactions": "Recent Transactions",
+    "activeProjects": "Active Projects",
+    "budgets": "Budgets",
+    "viewAll": "View All",
+    "periods": {
+      "thisMonth": "This Month",
+      "lastMonth": "Last Month",
+      "quarter": "Quarter",
+      "year": "Year"
+    }
+  },
+  "accounts": {
+    "title": "Accounts",
+    "subtitle": "Manage your bank accounts and cards",
+    "addAccount": "Add Account",
+    "newAccount": "New Account",
+    "editAccount": "Edit Account",
+    "accountName": "Account Name",
+    "accountType": "Account Type",
+    "initialBalance": "Initial Balance",
+    "currency": "Currency",
+    "interestRate": "Interest Rate (%)",
+    "safetyNet": "Safety Net",
+    "creditLimit": "Credit Limit",
+    "paymentDate": "Payment Date",
+    "counterparty": "Counterparty",
+    "issueDate": "Issue Date",
+    "returnDate": "Expected Return",
+    "icon": "Icon",
+    "color": "Color",
+    "income": "Income",
+    "expenses": "Expenses",
+    "types": {
+      "debit": "Debit Account",
+      "savings": "Savings Account",
+      "credit": "Credit Account",
+      "loan_given": "Loan (they owe me)",
+      "loan_taken": "Loan (I owe)"
+    },
+    "placeholders": {
+      "accountName": "e.g.: Main Card",
+      "counterparty": "Debtor/Creditor Name"
+    },
+    "confirmDelete": "Are you sure you want to delete this account?"
+  },
+  "transactions": {
+    "title": "Transactions",
+    "subtitle": "Manage your income and expenses",
+    "addTransaction": "Add Transaction",
+    "newTransaction": "New Transaction",
+    "editTransaction": "Edit Transaction",
+    "selectAccount": "Select Account",
+    "selectCategory": "Select Category",
+    "transactionDescription": "Enter transaction description",
+    "toAccount": "To Account",
+    "applyFilters": "Apply Filters",
+    "types": {
+      "income": "Income",
+      "expense": "Expenses",
+      "transfer": "Transfers"
+    },
+    "tabs": {
+      "expense": "Expense",
+      "income": "Income",
+      "transfer": "Transfer",
+      "shared": "Shared"
+    },
+    "periods": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "year": "Year",
+      "custom": "Custom"
+    },
+    "table": {
+      "date": "Date",
+      "account": "Account",
+      "category": "Category",
+      "description": "Description",
+      "amount": "Amount",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of"
+    },
+    "confirmDelete": "Are you sure you want to delete this transaction?"
+  },
+  "categories": {
+    "title": "Categories & Budgets",
+    "subtitle": "Manage expense and income categories",
+    "parentCategory": "Parent Category",
+    "addSubcategory": "Add Subcategory",
+    "tabs": {
+      "categories": "Categories",
+      "budgets": "Budgets"
+    },
+    "addCategory": "Add Category",
+    "newCategory": "New Category",
+    "editCategory": "Edit Category",
+    "categoryName": "Category Name",
+    "incomeCategories": "Income Categories",
+    "expenseCategories": "Expense Categories",
+    "addBudget": "Add Budget",
+    "newBudget": "New Budget",
+    "editBudget": "Edit Budget",
+    "budgetLimit": "Spending Limit",
+    "period": "Period",
+    "notifications": "Notifications",
+    "periods": {
+      "week": "Week",
+      "month": "Month",
+      "quarter": "Quarter",
+      "year": "Year"
+    },
+    "notificationOptions": {
+      "fifty": "Notify when reaching 50% of limit",
+      "seventyFive": "Notify when reaching 75% of limit",
+      "hundred": "Notify when reaching 100% of limit"
+    },
+    "confirmDeleteCategory": "Are you sure you want to delete this category?",
+    "confirmDeleteBudget": "Are you sure you want to delete this budget?"
+  },
+  "friends": {
+    "title": "Friends",
+    "subtitle": "Manage shared expenses and debts",
+    "addFriend": "Add Friend",
+    "searchFriends": "Search friends...",
+    "tabs": {
+      "all": "All Friends",
+      "requests": "Requests",
+      "sent": "Sent"
+    },
+    "addTabs": {
+      "email": "By Email",
+      "phone": "By Phone",
+      "name": "By Name"
+    },
+    "sharedTransaction": "Shared Transaction",
+    "remind": "Remind",
+    "owesYou": "Owes you:",
+    "youOwe": "You owe:",
+    "sendInvitation": "Send Invitation",
+    "emailHint": "We'll send an invitation to the specified email",
+    "phoneHint": "We'll send an SMS invitation",
+    "nameHint": "Search among FinTracker users",
+    "placeholders": {
+      "email": "example@mail.com",
+      "phone": "+1 (999) 123-45-67",
+      "name": "John Doe"
+    },
+    "emptyStates": {
+      "noRequests": "No incoming requests",
+      "noRequestsDesc": "Friend requests will appear here",
+      "noSent": "No sent requests",
+      "noSentDesc": "Your sent invitations will appear here"
+    },
+    "selectFriend": "Select friend"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Track budgets for major events and projects",
+    "createProject": "Create Project",
+    "newProject": "New Project",
+    "editProject": "Edit Project",
+    "projectName": "Project Name",
+    "budget": "Budget",
+    "startDate": "Start Date",
+    "endDate": "End Date (optional)",
+    "progress": "Progress",
+    "remaining": "Remaining",
+    "daysToCompletion": "Days to completion",
+    "overdue": "Overdue",
+    "today": "Today",
+    "days": "d.",
+    "infinite": "∞",
+    "placeholders": {
+      "projectName": "e.g.: Kitchen Renovation",
+      "description": "Brief project description"
+    },
+    "confirmArchive": "Are you sure you want to archive this project?"
+  },
+  "sharedTransactions": {
+    "title": "Shared Transactions",
+    "subtitle": "Track group expenses and debts",
+    "createShared": "Create Shared Transaction",
+    "newShared": "New Shared Transaction",
+    "owedToYou": "Owed to You",
+    "youOwe": "You Owe",
+    "activeTransactions": "Active Transactions",
+    "participants": "Participants",
+    "addParticipant": "Add Participant",
+    "splitMethods": {
+      "equal": "Equal",
+      "percentage": "Proportional",
+      "amount": "Specify Amounts"
+    },
+    "yourShare": "Your Share:",
+    "totalAmount": "Total Amount:",
+    "status": {
+      "completed": "Completed",
+      "partial": "Partially Paid",
+      "pending": "Pending Payment"
+    },
+    "details": "Details",
+    "settle": "Settle"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Detailed statistics of your finances",
+    "incomeExpenses": "Income and Expenses",
+    "expenseStructure": "Expense Structure",
+    "comparison": "Comparison with Previous Period",
+    "trends": "Trends",
+    "recommendations": "Recommendations",
+    "safetyNet": "Safety Net",
+    "totalAmount": "Total Amount",
+    "months": "mo.",
+    "safetyNetDesc": "Based on average monthly expenses",
+    "safetyNetRecommendation": "Recommended to have 6-12 months safety net",
+    "periods": {
+      "month": "This Month",
+      "quarter": "This Quarter",
+      "year": "This Year"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Personalize your application",
+    "sections": {
+      "appearance": "Appearance",
+      "notifications": "Notifications",
+      "currency": "Currency & Region",
+      "security": "Security",
+      "data": "Data & Export"
+    },
+    "appearance": {
+      "theme": "App Theme",
+      "themeDesc": "Choose light or dark theme",
+      "light": "Light",
+      "dark": "Dark",
+      "language": "Interface Language",
+      "languageDesc": "Choose app language"
+    },
+    "notifications": {
+      "push": "Push Notifications",
+      "pushDesc": "Receive browser notifications",
+      "budget": "Budget Notifications",
+      "budgetDesc": "Budget overspend warnings",
+      "weekly": "Weekly Reports",
+      "weeklyDesc": "Receive weekly spending summary"
+    },
+    "currency": {
+      "default": "Default Currency",
+      "defaultDesc": "Default currency for new accounts",
+      "dateFormat": "Date Format",
+      "dateFormatDesc": "How to display dates in the app"
+    },
+    "security": {
+      "autoLogout": "Auto Logout",
+      "autoLogoutDesc": "Logout when inactive",
+      "twoFactor": "Two-Factor Authentication",
+      "twoFactorDesc": "Additional account protection",
+      "setup2FA": "Setup 2FA"
+    },
+    "data": {
+      "export": "Export Data",
+      "exportDesc": "Download all your financial data",
+      "exportBtn": "Export",
+      "autoBackup": "Automatic Backup",
+      "autoBackupDesc": "Regularly save data copies"
+    },
+    "saveSettings": "Save Settings",
+    "resetSettings": "Reset to Defaults",
+    "settingsSaved": "Settings saved successfully!",
+    "confirmReset": "Are you sure you want to reset all settings to default values?"
+  },
+  "modal": {
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "apply": "Apply",
+    "reset": "Reset",
+    "create": "Create",
+    "update": "Update",
+    "remove": "Remove",
+    "archive": "Archive"
+  },
+  "periods": {
+    "day": "Day",
+    "week": "Week",
+    "month": "Month", 
+    "quarter": "Quarter",
+    "year": "Year",
+    "custom": "Custom",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "thisYear": "This Year",
+    "lastYear": "Last Year"
+  },
+  "charts": {
+    "7d": "7D",
+    "30d": "30D",
+    "3m": "3M", 
+    "year": "Year"
+  },
+  "header": {
+    "searchPlaceholder": "Search...",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all as read",
+    "profile": "Profile",
+    "help": "Help",
+    "logout": "Logout",
+    "personalAccount": "Personal Account"
+  },
+  "sidebar": {
+    "planFree": "Free",
+    "upgradeToPremium": "Upgrade to Premium",
+    "premiumModal": {
+      "title": "Upgrade to Premium",
+      "subtitle": "Unlock all Finsi features",
+      "features": {
+        "unlimited": "Unlimited accounts and transactions",
+        "analytics": "Advanced analytics and reports",
+        "export": "Export data to Excel and PDF",
+        "attachments": "Attach files to transactions",
+        "goals": "Financial goal planning",
+        "support": "Priority technical support",
+        "noAds": "No advertisements",
+        "backup": "Automatic data backup"
+      },
+      "price": "$9.99/month",
+      "promoCode": "Promo Code",
+      "promoPlaceholder": "Enter promo code",
+      "applyPromo": "Apply",
+      "subscribe": "Subscribe",
+      "cancel": "Cancel",
+      "promoApplied": "Promo code applied!",
+      "promoInvalid": "Invalid promo code",
+      "promoError": "Error validating promo code",
+      "subscriptionSuccess": "Subscription successful!",
+      "subscriptionError": "Subscription error"
+    }
+  }
+}
